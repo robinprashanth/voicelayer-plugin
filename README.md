@@ -2,14 +2,14 @@
 
 ## Description
 
-Cross-platform voicelayer for Cordova/Phonegap
+Cross-platform voicelayer for Cordova/Phonegap- Supports Android Only
 Plugin can be used for accessing all the API's or features available in https://developers.voicelayer.io/docs/main/android/index.html.
 Plugin dosen't support iOS currently. 
 Please Note: Readme File may not be updated with all the available API's.Developers are required to either refer www/Voicelayer.js or src/android/VoiceLayerIo.java File for implemented API's
 
 ## Installing the plugin
 ```
-cordova plugin add https://bitbucket.org/basitmunir/voicelayersdk-phonegap
+cordova plugin add https://github.com/robinprashanth/voicelayer-plugin
 ```
 
 ## Registering plugin for Adobe® PhoneGap™ Build
@@ -18,7 +18,7 @@ This plugin should work with Adobe® PhoneGap™ Build without any modification.
 To register plugin add following line into your config.xml:
 
 ```
-<plugin name="cordova-voicelayer-plugin" spec="https://bitbucket.org/basitmunir/voicelayersdk-phonegap"/>
+<plugin name="cordova-voicelayer-plugin" spec="https://github.com/robinprashanth/voicelayer-plugin"/>
 ```
 
 ## Quick Example
